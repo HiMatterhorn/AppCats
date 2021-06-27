@@ -3,4 +3,10 @@
   <groupId>kobietydokodu</groupId>
   <artifactId>AppCats</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>koty-application</module>
+  	<module>koty-domain</module>
+  	<module>koty-webapp</module>
+  </modules>
 </project>
