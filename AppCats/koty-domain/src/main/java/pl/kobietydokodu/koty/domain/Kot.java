@@ -3,11 +3,13 @@ package pl.kobietydokodu.koty.domain;
 import java.util.Date;
 
 public class Kot {
-    @Override
-	public String toString() {
-		return "Kot [imie=" + imie + ", dataUrodzenia=" + dataUrodzenia + ", waga=" + waga + ", imieOpiekuna="
-				+ imieOpiekuna + "]";
-	}
+	
+	private String imie;
+    private Date dataUrodzenia;
+    private Float waga;
+    private String imieOpiekuna;
+    
+
 	public String getImie() {
 		return imie;
 	}
@@ -32,8 +34,10 @@ public class Kot {
 	public void setImieOpiekuna(String imieOpiekuna) {
 		this.imieOpiekuna = imieOpiekuna;
 	}
-	private String imie;
-    private Date dataUrodzenia;
-    private Float waga;
-    private String imieOpiekuna;
+
+    @Override
+	public String toString() {
+		return "Kot [imie=" + imie + ", dataUrodzenia=" + dataUrodzenia + ", waga=" + waga + ", imieOpiekuna="
+				+ imieOpiekuna + "]";
+	}
 }
