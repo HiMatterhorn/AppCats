@@ -14,4 +14,12 @@ public class KotDAO {
 	public List<Kot> getKoty() {
 		return koty;
 	}
+	
+	public Kot getKotById(Integer id) {
+		if (id<koty.size()) {
+			return koty.get(id);
+		} else {
+			return null;
+		}
+	}
 }

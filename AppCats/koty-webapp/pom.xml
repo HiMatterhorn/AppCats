@@ -9,7 +9,7 @@
   <packaging>war</packaging>
 	<dependencies>
 		<dependency>
-			<groupId>pl.kobietydokodu</groupId>
+			<groupId>kobietydokodu</groupId>
 			<artifactId>koty-application</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
