@@ -14,7 +14,6 @@ public class KotDAO {
 	
 	public void dodajKota(Kot kot) {
 		koty.add(kot);
-		System.out.println(kot.getImie());
 	}
 	
 	public List<Kot> getKoty() {
