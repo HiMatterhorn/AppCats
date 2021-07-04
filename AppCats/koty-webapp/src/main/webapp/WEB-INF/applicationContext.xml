@@ -10,12 +10,14 @@
  http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
  http://www.springframework.org/schema/context 
  http://www.springframework.org/schema/context/spring-context-4.0.xsd">
-
+ 
+	<mvc:annotation-driven/>
+	
 	<context:component-scan
-		base-package="kobietydokodu" /> 
+		base-package="pl.kobietydokodu.*" /> 
 	<context:annotation-config /> 
 	
-	<mvc:annotation-driven/>
+
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>kobietydokodu</groupId>
+		<groupId>pl.kobietydokodu</groupId>
 		<artifactId>AppCats</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -19,7 +19,7 @@
 			<version>4.1.1.RELEASE</version>
 		</dependency>
 		<dependency>
-			<groupId>kobietydokodu</groupId>
+			<groupId>pl.kobietydokodu</groupId>
 			<artifactId>koty-domain</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>

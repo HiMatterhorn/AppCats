@@ -1,9 +1,14 @@
 package pl.kobietydokodu.koty;
 
 import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 import pl.kobietydokodu.koty.domain.Kot;
 
+
+@Repository
 public class KotDAO {
 	List<Kot> koty = new ArrayList<Kot>();
 	

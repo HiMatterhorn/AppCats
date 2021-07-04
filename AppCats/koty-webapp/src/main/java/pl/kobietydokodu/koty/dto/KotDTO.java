@@ -1,9 +1,11 @@
 package pl.kobietydokodu.koty.dto;
 
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
-import org.hibernate.validator.constraints.NotBlank;
+
+
 
 public class KotDTO {
 	@NotBlank
