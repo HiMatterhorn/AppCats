@@ -18,8 +18,6 @@ public class KotDAO {
 	}
 	
 	public List<Kot> getKoty() {
-		System.out.println("Zwrócono listê kotów");
-
 		return koty;
 	}
 	
